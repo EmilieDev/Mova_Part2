@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="contact.css" rel="stylesheet">
+		
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Mova</title>    
+    </head>
+
+    <body>
+        <header> 
+            <div class="row">
+                <div class="col-2 button-wrapper">
+                    <a href="accueil.html" class="btn btn-primary btn-menu">ACCUEIL</a>
+                </div>
+                <div class="col-2 button-wrapper">
+                    <a href="offres.html" class="btn btn-primary btn-menu">OFFRES</a>
+                </div>
+                <div class="col-4">
+                    <img class="w-10" src="images/Mova_logo3.png" alt=""/>
+                </div>
+                <div class="col-2 button-wrapper">
+                    <a href="nous.html" class="btn btn-primary btn-menu">A PROPOS DE NOUS</a>
+                </div>
+                <div class="col-2 button-wrapper">
+                    <a href="contact.html" class="btn btn-primary btn-menu">CONTACT</a>
+                </div>
+            </div>
+        </header>
+
+        <article>
+            <div class="hero">
+                <img class="w-100" src="images/fondvert.jpg" alt=""/>
+                <div class="text-overlay">
+                    <h2>Contact</h2>
+                    <p>Une remarque ? une suggestion ? N'hésitez-pas à nous écrire</p>
+                    <form method="post" action="verifForm1.php">
+                        <table>
+                            <tr>
+                                <td> Votre nom (obligatoire) </td>
+                                <td> <input type="text" name="nom" size="50"> </td>
+                            </tr>
+                            <tr>
+                                <td> Votre e-mail (obligatoire) </td>
+                                <td> <input type="text" name="email" size="50"> </td>
+                            </tr>
+                            <tr>
+                                <td> Sujet </td>
+                                <td> <input type="text" name="sujet" size="50"> </td>
+                            </tr>
+                            <tr>
+                                <td> Votre message </td>
+                                <td>  <textarea name="pseudo" rows="4" cols="50"></textarea>  </td>
+                            </tr>
+                            <tr>
+                                <td> <input type="submit" value="Envoyer"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <footer>
+            <div class="row">
+                <div class="col-6 localisation">
+                    <img class="w-10" src="images/localisation.png" alt=""/>
+                </div>
+                <div class="col-6 contact">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <h2 style="margin-top: 5%;">Coordonnées</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Assistance : support@mova.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Ventes : concierge@mova.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Général : info@mova.com</p>
+                        </div>
+                    </div>
+                    <div class="row medias">
+                        <div class="col-auto media_image">
+                            <img class="rounded logoinsta" src="images/facebook2.jpg" alt=""/>
+                            <p>Facebook</p>
+                        </div>
+                        <div class="col-auto media_image">
+                            <img class="rounded logoinsta" src="images/insta.jpg" alt=""/>
+                            <p>Instagram</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

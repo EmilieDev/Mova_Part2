@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Nirmala UI;
+    background-color: #dedfdf !important;
+}
+
+header {
+    text-align: center;
+}
+
+.btn.btn-primary {
+    margin-top:50px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold ; 
+    font-size: 25px;
+    background-color: #048f7f;
+    border-color: black;
+}
+
+.btn.btn-primary:hover {
+    background-color: #147022;
+}
+
+article {
+    margin-top: 10px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.text-overlay {
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    top: 10%;
+    bottom:10%;
+    right: 20%;
+    left: 20%;
+    color: rgb(0, 0, 0);
+}
+
+.text-overlay h2 {
+    font-size: 30px;
+    margin: 35px;
+    font-family: Bahnschrift;
+}
+
+.text-overlay p {
+    margin: 35px;
+    font-size: 18px;
+    font-family: Bahnschrift;
+}
+
+.text-overlay table{
+    margin: 35px;
+    font-size: 18px;
+    font-family: Bahnschrift;
+}
+
+.text-overlay td {
+    padding: 10px; 
+}
+
+.text-overlay textarea {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+footer {
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.localisation {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.logofacebook {
+    width: 100px;
+}
+
+.logoinsta {
+    width: 100px;
+}
+
+.medias {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.media_image{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

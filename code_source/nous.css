@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Nirmala UI;
+    background-color: #dedfdf !important;
+}
+
+header {
+    text-align: center;
+}
+
+.btn.btn-primary {
+    margin-top:50px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold ; 
+    font-size: 25px;
+    background-color: #048f7f;
+    border-color: black;
+}
+
+.btn.btn-primary:hover {
+    background-color: #147022;
+}
+
+article {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+article h2{
+    margin-top: 2%;
+    font-size: 35px;
+}
+
+article p{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.rectangle1 {
+    background-color: #7ed957;
+}
+
+.text1{
+    text-align: center;
+}
+.image1 {
+    width: 100%;
+}
+
+.rectangle2 {
+    background-color: white;
+    
+}
+
+.image2{
+    width: 100%;
+}
+
+.text2{
+    text-align: center;
+}
+
+.rectangle3 {
+    background-color: #048f7f;
+}
+
+.text3{
+    text-align: center;
+    color: white;
+}
+
+.image3 {
+    width: 100%;
+}
+
+
